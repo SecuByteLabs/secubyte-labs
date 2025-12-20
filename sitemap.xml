@@ -3,44 +3,45 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/</loc>
     <lastmod>2025-01-01</lastmod>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/about.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/about.html</loc>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/services.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/services.html</loc>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/careers.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/careers.html</loc>
     <priority>0.60</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/blog.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/blog.html</loc>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/contact.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/contact.html</loc>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/privacy.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/privacy.html</loc>
     <priority>0.40</priority>
   </url>
 
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/terms.html</loc>
+    <loc>https://secubytelabs.github.io/secubyte-labs/terms.html</loc>
     <priority>0.40</priority>
   </url>
 
 </urlset>
+
