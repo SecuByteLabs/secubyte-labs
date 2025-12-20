@@ -1,0 +1,22 @@
+{
+  "name": "SecuByte Labs",
+  "short_name": "SecuByte",
+  "description": "SecuByte Labs helps businesses design better, analyze smarter, and stay digitally secure.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b0f1a",
+  "theme_color": "#00b4ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

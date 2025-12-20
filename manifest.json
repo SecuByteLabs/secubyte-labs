@@ -1,0 +1,15 @@
+{
+  "name": "SecuByte Labs",
+  "short_name": "SecuByte",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0b0f1a",
+  "theme_color": "#00b4ff",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Company: SecuByte Labs
+Location: Jaipur, Rajasthan, India
+
+Founder & CEO: Pratham Singhal
+Co-Founder & CTO: Vinay Bansal
+
+Website: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/
+Technology: HTML, CSS, JavaScript
+Hosting: GitHub Pages

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Contact Us | SecuByte Labs</title>
+
+  <meta name="description" content="Contact SecuByte Labs for cybersecurity, website development, data analytics, and digital services.">
+  <meta name="keywords" content="Contact SecuByte Labs, IT Company Contact, Cybersecurity Services India">
+  <meta name="author" content="SecuByte Labs">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#00b4ff">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SecuByte Labs">
+  <meta property="og:description" content="Securing the Future, One Byte at a Time">
+  <meta property="og:image" content="assets/images/hero.png">
+  <meta property="og:url" content="https://secubytelabs.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0b0f1a;
+      color: #eaeaea;
+      line-height: 1.7;
+    }
+
+    /* ===== NAVBAR (SAME AS HOME) ===== */
+    .navbar {
+      background: #000;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-left img {
+      height: 36px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+    }
+
+    .nav-links a {
+      color: #eaeaea;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .nav-links a:hover {
+      color: #00b4ff;
+    }
+
+    .nav-toggle {
+      display: none;
+      font-size: 26px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .nav-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: #000;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        padding: 20px 0;
+      }
+
+      .nav-links a {
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      .nav-links.show {
+        display: flex;
+      }
+    }
+
+    /* ===== PAGE HEADER ===== */
+    .page-header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #000, #0b0f1a);
+    }
+
+    .page-header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .page-header p {
+      opacity: 0.85;
+      font-size: 16px;
+    }
+
+    /* ===== SECTION ===== */
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      font-size: 26px;
+    }
+
+    section p {
+      margin-bottom: 25px;
+      opacity: 0.9;
+    }
+
+    /* ===== CONTACT GRID ===== */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .contact-box {
+      background: #111;
+      padding: 25px;
+      border-radius: 6px;
+    }
+
+    .contact-box h3 {
+      margin-bottom: 10px;
+    }
+
+    .contact-box p {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .contact-box a {
+      color: #00b4ff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    /* ===== FORM ===== */
+    iframe {
+      width: 100%;
+      height: 650px;
+      border: none;
+      border-radius: 6px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #000;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .footer-social a,
+    .footer-links a {
+      color: #00b4ff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer p {
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      .page-header h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/images/logo.png" alt="SecuByte Labs Logo">
+    </div>
+
+    <div class="nav-toggle" id="navToggle">☰</div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <h1>Contact Us</h1>
+    <p>Let’s discuss how we can help your business grow securely</p>
+  </div>
+
+  <!-- CONTACT INFO -->
+  <section>
+    <div class="contact-grid">
+
+      <div class="contact-box">
+        <h3>Business Inquiries</h3>
+        <p>Email us for project discussions, quotations, and collaborations.</p>
+        <a href="mailto:secubytelabs@gmail.com">secubytelabs@gmail.com</a>
+      </div>
+
+      <div class="contact-box">
+        <h3>Careers & HR</h3>
+        <p>Interested in working with us? Reach out to our HR team.</p>
+        <a href="mailto:secubytelabs@gmail.com">Contact HR</a>
+      </div>
+
+      <div class="contact-box">
+        <h3>Call Us</h3>
+        <p>Available on business days (10 AM – 6 PM IST)</p>
+        <a href="tel:+916376813750">+91 6376813750</a>
+      </div>
+
+      <div class="contact-box">
+        <h3>Location</h3>
+        <p>Jaipur, Rajasthan, India</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GOOGLE FORM -->
+  <section>
+    <h2>Send Us a Message</h2>
+    <p>Fill out the form below and we’ll get back to you as soon as possible.</p>
+
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeMIYUnT43fwo9XRG7bE-BXCzsAKClGEtaSunq4T_kCC61-Xw/viewform?embedded=true"
+      title="Contact Form">
+    </iframe>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-social">
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+
+    <p>© <span id="year"></span> SecuByte Labs. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>

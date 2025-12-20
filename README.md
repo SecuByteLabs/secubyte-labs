@@ -1,2 +1,12 @@
-# secubyte-labs
-Official website of SecuByte Labs showcasing services in web design, analytics, and cybersecurity.
+# SecuByte Labs Website
+
+Official website of SecuByte Labs  
+Cybersecurity • Development • Data • Creative Solutions
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## Hosting
+- GitHub Pages

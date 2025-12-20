@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Blog | SecuByte Labs</title>
+
+  <meta name="description" content="Read cybersecurity, technology, data, and digital insights from SecuByte Labs.">
+  <meta name="keywords" content="Cybersecurity Blog, IT Blog, Data Analysis Blog, SecuByte Labs">
+  <meta name="author" content="SecuByte Labs">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#00b4ff">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SecuByte Labs">
+  <meta property="og:description" content="Securing the Future, One Byte at a Time">
+  <meta property="og:image" content="assets/images/hero.png">
+  <meta property="og:url" content="https://secubytelabs.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0b0f1a;
+      color: #eaeaea;
+      line-height: 1.7;
+    }
+
+    /* ===== NAVBAR (COMMON) ===== */
+    .navbar {
+      background: #000;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-left img {
+      height: 36px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+    }
+
+    .nav-links a {
+      color: #eaeaea;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .nav-links a:hover {
+      color: #00b4ff;
+    }
+
+    .nav-toggle {
+      display: none;
+      font-size: 26px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .nav-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: #000;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        padding: 20px 0;
+      }
+
+      .nav-links a {
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      .nav-links.show {
+        display: flex;
+      }
+    }
+
+    /* ===== PAGE HEADER ===== */
+    .page-header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #000, #0b0f1a);
+    }
+
+    .page-header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .page-header p {
+      opacity: 0.85;
+      font-size: 16px;
+    }
+
+    /* ===== BLOG SECTION ===== */
+    section {
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .blogs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .blog-card {
+      background: #111;
+      border-radius: 6px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .blog-content {
+      padding: 20px;
+    }
+
+    .blog-content h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .blog-content p {
+      opacity: 0.9;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .blog-content a {
+      color: #00b4ff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #000;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .footer-social a,
+    .footer-links a {
+      color: #00b4ff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer p {
+      margin-top: 10px;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      .page-header h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/images/logo.png" alt="SecuByte Labs Logo">
+    </div>
+
+    <div class="nav-toggle" id="navToggle">☰</div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <h1>Our Blog</h1>
+    <p>Insights on cybersecurity, technology, and digital best practices</p>
+  </div>
+
+  <!-- BLOGS -->
+  <section>
+    <div class="blogs">
+
+      <div class="blog-card">
+        <img src="assets/images/Blog1.png" alt="Cybersecurity Basics">
+        <div class="blog-content">
+          <h3>Basic Cybersecurity Risks Every Startup Should Know</h3>
+          <p>
+            An overview of common cybersecurity risks faced by startups and how
+            basic security practices can reduce threats.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="assets/images/Blog2.png" alt="Website Security">
+        <div class="blog-content">
+          <h3>Why Website Security Matters for Small Businesses</h3>
+          <p>
+            Learn how website security impacts trust, data protection, and
+            long-term business growth.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="assets/images/Blog3.png" alt="Data Analysis">
+        <div class="blog-content">
+          <h3>Turning Business Data into Actionable Insights</h3>
+          <p>
+            How structured data analysis helps businesses make better and more
+            informed decisions.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-social">
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+
+    <p>© <span id="year"></span> SecuByte Labs. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const navToggle = document.getElementById("navToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
